@@ -3,7 +3,7 @@
 //refer: https://www.acmicpc.net/problem/1000
 import java.util.Scanner;
 
-public class Main {
+public class AddAB {
     /* 문제파악
     두 정수 A와 B를 입력받은 다음, A+B를 출력한다. 입력값의 범위는 (0 < A, B < 10)
     
@@ -30,7 +30,7 @@ public class Main {
         scanner.close();
 
         //처리
-        Main main = new Main();
+        AddAB main = new AddAB();
         int output_plus = main.plus(input_first, input_second);
 
         //출력
