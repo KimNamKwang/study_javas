@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class Mul {
     public static void main(String[] args) {
@@ -48,13 +47,29 @@ public class Mul {
          */
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int result1 = 0;
+        int result2 = 0;
+        int result3 = 0;
+        int result4 = 0;
         try {
-            String[] input = br.readLine().split(null);
-            String first[] = ;
+            int first = Integer.parseInt(br.readLine());
+            String second = br.readLine();
+
+            char[] array = second.toCharArray();
+
+            result1 = (first * (array[2] - '0'));
+            result2 = (first * (array[1] - '0'));
+            result3 = (first * (array[0] - '0'));
+            result4 = (first * Integer.parseInt(second));
+
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
 
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
     }
 }
