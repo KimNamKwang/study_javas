@@ -3,6 +3,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Mul {
+
+    public void name() {
+        
+    }
     public static void main(String[] args) {
         // 문제
         // 2588번
@@ -62,6 +66,7 @@ public class Mul {
             result2 = (first * (array[1] - '0'));
             result3 = (first * (array[0] - '0'));
             result4 = (first * Integer.parseInt(second));
+            br.close();
 
         } catch (IOException e) {
             e.printStackTrace();
