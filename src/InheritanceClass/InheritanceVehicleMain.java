@@ -9,7 +9,7 @@ public class InheritanceVehicleMain {
         Vans vans = new Vans();
         System.out.println("vans speed : " + vans.Speed(50, 3));
         System.out.println("vans weight : " + vans.Weight(30, 50, 70));
-        System.out.println("vans windows_count : " + vans.windows_count(6) + "\n");
+        System.out.println("vans windows_count : " + vans.Windows_count(6) + "\n");
 
         Cars cars = new Cars(3);
         System.out.println("cars speed : " + cars.Speed(50, 3));
