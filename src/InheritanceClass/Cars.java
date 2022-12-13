@@ -1,11 +1,12 @@
 package InheritanceClass;
 
 public class Cars extends Vehicles {
-    int oneway_count = 0;
 
     Cars(int oneway_count) {
-
+        System.out.println("Cars - constructor");
     }
+
+    int oneway_count = 3;
 
     public int Speed(int kms, int hours) {
         int result = kms / hours + this.oneway_count;
