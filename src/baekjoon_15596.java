@@ -24,6 +24,7 @@ public class baekjoon_15596 {
         int count = 0; // 입력받은 정수의 갯수 파악용
 
         String input = br.readLine(); // 입력받은 값 문자열로 보관
-        String nums[] = input.split(" "); // 입력받은 정수들 배열에 보관
+        String nums[] = input.split(" "); // 입력받은 정수들 공백으로 끊어서 배열에 보관
+        System.out.println(nums);
     }
 }
