@@ -3,7 +3,8 @@
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "c:\\Program Files\\Java\\jdk-11.0.2\\lib\\jrt-fs.jar"
+    "c:\\Program Files\\Java\\jdk-11.0.2\\lib\\jrt-fs.jar",
+    "c:\\Develops\\gson-2.10.1.jar"
   ],
   "liveServer.settings.port": 5501
 }
